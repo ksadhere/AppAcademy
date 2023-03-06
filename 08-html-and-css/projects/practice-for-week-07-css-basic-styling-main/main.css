@@ -1,0 +1,64 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("/kaushan-script/KaushanScript-Regular.otf");
+}
+body {
+  background-color: slategray;
+}
+h1 {
+  position: relative;
+  text-align: center;
+    font-size: 400%;
+    font-family: myFirstFont;
+    padding: auto;
+    margin: 0px 300px;
+    font-weight: 900;
+    color: rgb(250, 209, 114);
+    background-color: rgb(120, 187, 162);
+}
+
+h2 {
+  text-align: center;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    margin: auto;
+    font-weight: 900;
+    color: blanchedalmond;
+    background-color: rgb(120, 187, 162);
+
+}
+div.story-box {
+  background-color:rgb(250, 209, 114);
+}
+p {
+  text-indent: 2em;
+  position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
+    width: fit-content;
+    margin: 10px auto;
+    color: rgb(74, 137, 93);
+    background-color: rgb(250, 209, 114);
+    border: 10px rgb(250, 209, 114);
+}
+
+p > em {
+  font-weight: 900;
+}
+
+header + div {
+  margin: 0 300px;
+}
+
+
+.logo {
+    background-size: cover;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    background-color: rgb(120, 187, 162);
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 30px;
+    left: 350px;
+  }

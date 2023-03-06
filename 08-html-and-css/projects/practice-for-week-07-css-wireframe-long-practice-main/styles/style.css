@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+</style>
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  position: relative;
+}
+
+div.upper__right {
+  position: absolute;
+  top: 15px;
+  left: 1150px;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.get-started {
+  border-radius: 10%;
+  border-height: 2px;
+  border-width: 2px;
+  padding: 5px 10px;
+  border-color: rgb(83, 224, 125);
+  border-style: solid;
+  color: rgb(83, 224, 125);
+}
+
+.sign-in {
+  color: rgb(83, 224, 125);
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+
+img.upper__left {
+  position: relative;
+  top: 15px;
+  left: 40px;
+}
+
+div.nav__lower > ul {
+  top: 35px;
+  position: sticky;
+  padding: 30px 280px;
+  text-align: justify;
+  list-style-type: none;
+  z-index: 1;
+}
+
+li.nav__main__item {
+  display: inline-block;
+  margin: 0px 35px;
+}
+
+div>img.main__img {
+  position: relative;
+  left: 340px;
+  top: 80px;
+}
+
+h1 {
+  position: absolute;
+  top: 80px;
+  left: 330px;
+  padding: 38px 10px;
+  width: 500px;
+}
+
+p {
+  position: relative;
+  top: 100px;
+  left: 340px;
+  width: 600px;
+}
+
+h2, div.external_links {
+  position: relative;
+  top: 100px;
+  left: 340px;
+}
+
+
+
+div.grid {
+  position: relative;
+  top: 100px;
+  display:grid;
+  left: 350px;
+}
+
+.footer__left {
+    position: relative;
+      top: 167px;
+      padding-bottom: 40px;
+        left: 40px;
+}
+
+.footer__right {
+  position: relative;
+  left: 1190px;
+  top: 110px;
+  padding-bottom: 40px;
+}
+
+div.footer__right > a.help {
+  margin-left: 1em;
+  margin-right: 2em;
+}
+
+div.footer__right>a.about {
+  margin-right: 1em;
+}

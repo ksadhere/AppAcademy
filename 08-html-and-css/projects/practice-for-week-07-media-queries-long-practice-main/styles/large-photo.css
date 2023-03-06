@@ -1,0 +1,52 @@
+body {
+    background-color: #1d3e81;
+    color: #E8EFF0;
+    text-align: center;
+}
+img {
+    width: 50%;
+}
+a {
+    color: #E8EFF0;
+}
+
+a.backButton {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    z-index: 1;
+    text-decoration: none;
+}
+
+/* Your code here */
+
+@media print {
+  img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  body {
+    background-color: white;
+    text-align: center;
+    padding: 0;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    position: relative;
+    bottom: 35px;
+    margin: 0;
+    padding: 0;
+  }
+
+  p.notPrinted,
+  a.backButton {
+    display: none;
+  }
+}

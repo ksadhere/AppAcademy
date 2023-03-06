@@ -1,0 +1,53 @@
+html, body {
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #2b2d2f;
+    position: relative;
+}
+
+.element {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100px;
+    height: 280px;
+    font-size: 36px;
+}
+
+#yellow-box {
+    background-color: #ffff00;
+    position: static;
+}
+
+#pink-box {
+    background-color: #ff69b4;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+}
+
+#blue-box {
+    background-color: #00eeee;
+    position: fixed;
+    left: 108px;
+    top: 190px;
+    z-index: 2;
+}
+
+#red-box {
+    background-color: #ff0000;
+    position: relative;
+    left: 45px;
+    top: 151px;
+    z-index: 3;
+}
+
+#orange-box {
+    background-color: #ffa500;
+    position: absolute;
+    top: -35px;
+    left: 100px;
+
+}

@@ -1,0 +1,49 @@
+/* body {
+  text-align: center;
+} */
+
+form {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea {
+  width: 170px;
+}
+
+.form_smaller-font--size {
+  font-size: 9px;
+}
+
+.fav__language,
+.terms {
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  margin: 3px auto 3px auto;
+}
+
+.fav__language-text {
+  width: 170px;
+  text-align: center;
+  margin: 3px auto;
+}
+
+div.terms {
+  height: 25px;
+  text-align: left;
+  line-height: 1.2;
+}
+
+#terms,
+#signup {
+  width: 20px;
+}
