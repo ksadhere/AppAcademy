@@ -104,7 +104,7 @@
 
 9. SUBMIT A NEW REVIEW FOR A PRODUCT:
   a. Predicted request components:
-    - Method: GET
+    - Method: POST
     - URL: /products/:productID/reviews/new
     - Headers:
     - Body:
